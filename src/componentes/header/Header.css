@@ -1,14 +1,15 @@
 header {
-  background-color:white;
+  background-color:#ff52bf;
    padding: 40px;
    text-align: center;
-   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+   box-shadow: 0 0 10px black;
    display:flex;
    justify-content:space-between;
  }
  img{
-   width:170px;
+   width:230px;
    height:100px;
+   background-size:100%;
  }
  h1 {
    color: #ffffff;
@@ -21,7 +22,7 @@ header {
    margin-top: 10px;
  }
  .navbar {
-   margin-top: 10px;
+   margin-top: 40px;
    text-align: right;
  }
  .navbar ul {
@@ -35,97 +36,14 @@ header {
  }
  
  .navbar a {
-   color: #000000;
+   color: #ffffff;
    text-decoration: none;
    font-size: 20px;
    padding: 10px 20px;
    border-radius: 10px;
-   border: 2px solid #000000;
+   border: 2px solid #ffffff;
  }
  
  .navbar a:hover {
-   background-color: #ffb3f9;
    color: #120d03;
  }
- 
-
-
-
-
-
-/* Estilo do rodapé */
-footer {
-  background-color: #333;
-  color: white;
-  padding: 50px 0;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}
-
-/* Estilo do rodapé */
-footer {
-  background-color: #333;
-  color: white;
-  padding: 50px 0;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}
-
-/* Estilo do container do rodapé */
-.DivPrinc {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center; /* Center-align items horizontally */
-  flex-wrap: wrap;
-}
-
-/* Estilo das divisões no rodapé */
-.div1 {
-  flex: 1;
-  margin-bottom: 20px; /* Increase the vertical spacing */
-  padding: 0 20px;
-  text-align: center; /* Alinhamento centralizado */
-}
-
-/* Estilo da seção "INÍCIO" */
-footer div p strong {
-  font-weight: bold;
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-
-/* Estilo dos links do rodapé */
-footer div ul {
-  list-style: none;
-  padding: 0;
-  text-align: center; /* Alinhamento centralizado */
-}
-
-footer div ul li {
-  margin-bottom: 10px;
-}
-
-footer div ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
-  display: block; /* Display li items as blocks for vertical stacking */
-}
-
-footer div ul li a:hover {
-  text-decoration: underline;
-}
-
-/* Adicionando espaçamento entre p e li */
-footer div p {
-  margin-bottom: 15px;
-}
-.ul1 img{
-  width: 40px;
-  height: 40px;
-}
