@@ -9,9 +9,7 @@ export default function Header() {
         
         <nav className="navbar">
           <ul>
-            <li>
-              <a href="#">Home</a>
-            </li>
+            
             <li>
               <a href="#">Notícia</a>
             </li>
