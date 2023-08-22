@@ -19,7 +19,6 @@ export default function Footer() {
                 <ul className='ul1'>
                   <li><a href="#">Informações da Empresa</a></li>
                   <li><a href="#">Contato</a></li>
-                  <li><a href="#">Blog</a></li>
                 </ul>
             </div>
 
